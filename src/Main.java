@@ -43,9 +43,12 @@ public class Main {
         phishingKeywords.put("Gane un iPhone gratis", 3);
         phishingKeywords.put("Ganador", 3);
         phishingKeywords.put("Estimado cliente", 2);
-        phishingKeywords.put("Alerta de seguridad", 3);
+        phishingKeywords.put("Tarjeta de credito", 3);
         phishingKeywords.put("Restablecer contraseña", 2);
-        // Agrega más palabras clave según tu investigación
+        // Poco problable: 1 punto
+        // Algo problable: 2 puntos
+        //Muy problable: 3 puntos
+
     }
 
     private static int exploreTextFile(String filePath) {
