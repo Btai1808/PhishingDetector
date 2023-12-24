@@ -15,8 +15,22 @@ public class Main {
 
     private static void initializePhishingKeywords() {
         // Lista de palabras clave de phishing a la lista
-        phishingKeywords.put("banco", 3);
-        phishingKeywords.put("tarjeta de crédito", 3);
+        phishingKeywords.put("Banco Pichincha", 3);
+        phishingKeywords.put("Usted tiene aprobado tarjeta de crédito", 3);
+        phishingKeywords.put("Urgente", 3);
+        phishingKeywords.put("Atención", 2);
+        phishingKeywords.put("Importante", 2);
+        phishingKeywords.put("Su cuenta a sido bloqueada", 3);
+        phishingKeywords.put("Su contraseña a sido comprometida", 3);
+        phishingKeywords.put("Haga click aquí", 3);
+        phishingKeywords.put("Reenvíe esta información", 2);
+        phishingKeywords.put("No responsa a este correo electrónico", 2);
+        phishingKeywords.put("Amazon", 2);
+        phishingKeywords.put("eBay", 2);
+        phishingKeywords.put("¡Felicidades!", 2);
+        phishingKeywords.put("Cuenta suspendida", 3);
+        phishingKeywords.put("Confirmar datos", 3);
+        phishingKeywords.put("Inicie sesión para verificar", 3);
         // Agrega más palabras clave según tu investigación
     }
 
