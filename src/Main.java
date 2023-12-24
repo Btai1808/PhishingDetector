@@ -31,6 +31,20 @@ public class Main {
         phishingKeywords.put("Cuenta suspendida", 3);
         phishingKeywords.put("Confirmar datos", 3);
         phishingKeywords.put("Inicie sesión para verificar", 3);
+        phishingKeywords.put("Alerta de seguridad", 2);
+        phishingKeywords.put("Gane dinero rápido", 3);
+        phishingKeywords.put("Acceso no autorizado", 3);
+        phishingKeywords.put("¡Actúe ahora!", 3);
+        phishingKeywords.put("Oferta exclusiva", 2);
+        phishingKeywords.put("Cierre de cuenta", 3);
+        phishingKeywords.put("Confirmación urgente", 2);
+        phishingKeywords.put("Gane un premio", 2);
+        phishingKeywords.put("Problemas con su pago", 3);
+        phishingKeywords.put("Gane un iPhone gratis", 3);
+        phishingKeywords.put("Ganador", 3);
+        phishingKeywords.put("Estimado cliente", 2);
+        phishingKeywords.put("Alerta de seguridad", 3);
+        phishingKeywords.put("Restablecer contraseña", 2);
         // Agrega más palabras clave según tu investigación
     }
 
