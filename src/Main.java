@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         initializePhishingKeywords();
-        int totalPoints = exploreTextFile("ruta_al_archivo_de_texto");
+        int totalPoints = exploreTextFile("C:\\Users\\Alex\\IdeaProjects\\Actividad 6\\src\\mensaje.txt");
         System.out.println("Total de puntos para todo el mensaje: " + totalPoints);
     }
 
